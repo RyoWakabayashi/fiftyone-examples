@@ -1,0 +1,24 @@
+{
+  "name": "ryowakabayashi-fiftyone-examples",
+  "version": "1.0.0",
+  "description": "FiftyOne の実行例",
+  "main": "",
+  "scripts": {
+    "super_lint": "docker-compose -f super-linter/docker-compose.yml up",
+    "prepare": "bash -c \"cp ./git_hooks/commit-msg ./.git/hooks/\""
+  },
+  "repository": {
+    "type": "https",
+    "url": "github.com/RyoWakabayashi/fiftyone-examples.git"
+  },
+  "author": "oec",
+  "bugs": {
+    "url": "https://RyoWakabayashi/fiftyone-examples/issues"
+  },
+  "homepage": "https://RyoWakabayashi/fiftyone-examples#readme",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0"
+  }
+}

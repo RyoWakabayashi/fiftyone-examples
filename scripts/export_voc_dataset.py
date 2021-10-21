@@ -24,6 +24,7 @@ def main():
             label_types=["detections"],
             classes=["Cat", "Dog", "Duck"],
             max_samples=200,
+            only_matching=True,
         )
         dataset.name = dataset_name
         # 永続化

@@ -18,7 +18,7 @@ def main():
     if dataset_name in fo.list_datasets():
         dataset = fo.load_dataset(dataset_name)
     else:
-        # 猫・犬・アヒルの画像と物体検出アノテーションデータを200件取得する
+        # 猫・犬・アヒルの画像と物体検出アノテーションデータを300件取得する
         dataset = foz.load_zoo_dataset(
             "open-images-v6",
             label_types=["detections"],
